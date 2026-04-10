@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>AULA09</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="#" method="post">
+        <table border="1">
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="nome" placeholder="Digite seu nome"></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail pessoal:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="email_patter">E-mail (patter):</label></td>
+                <td><input type="text" id="email_patter" name="email_patter" placeholder="Digite seu email com @"></td>
+            </tr>
+            <tr>
+                <td><label for="senha">Senha:</label></td>
+                <td><input type="password" id="senha" name="senha"></td>
+            </tr>
+            <tr>
+                <td><label for="idade">Idade:</label></td>
+                <td><input type="number" id="idade" name="idade"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="comentario">Deixe um comentário:</label><br>
+                    <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Materia de interesse:</p>
+                    <input type="checkbox" id="backend" name="materia" value="backend">
+                    <label for="backend">Backend</label><br>
+                    <input type="checkbox" id="frontend" name="materia" value="frontend">
+                    <label for="frontend">FrontEnd</label><br>
+                    <input type="checkbox" id="fullstack" name="materia" value="fullstack">
+                    <label for="fullstack">FullStack</label>
+                </td>
+                <td>
+                    <p>Tipo de Viagem:</p>
+                    <input type="radio" id="negocios" name="viagem" value="negocios">
+                    <label for="negocios">Negócios</label><br>
+                    <input type="radio" id="lazer" name="viagem" value="lazer">
+                    <label for="lazer">Lazer</label><br>
+                    <input type="radio" id="turismo" name="viagem" value="turismo">
+                    <label for="turismo">Turismo</label><br>
+                    <input type="radio" id="academico" name="viagem" value="academico">
+                    <label for="academico">Acadêmico</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="esporte">Esporte favorito:</label><br>
+                    <select id="esporte" name="esporte" size="4">
+                        <option value="futebol">Futebol</option>
+                        <option value="basquete">Basquete</option>
+                        <option value="volei">Vôlei</option>
+                        <option value="tenis">Tênis</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="investimentos">Investimentos:</label>
+                    <select id="investimentos" name="investimentos">
+                        <option value="poupanca">Poupança</option>
+                        <option value="cdb">CDB</option>
+                        <option value="tesouro">Tesouro Direto</option>
+                        <option value="fundos">Fundos Imobiliários</option>
+                        <option value="cdi">CDI</option>
+                        <option value="debentures">DEBÊNTURES</option>
+                        <option value="cripto">Criptomoedas</option>
+                        <option value="acoes">Ações</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cor">Escolha uma cor:</label>
+                    <input type="color" id="cor" name="cor">
+                </td>
+                <td>
+                    <label for="arquivo">Selecione um arquivo:</label>
+                    <input type="file" id="arquivo" name="arquivo">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="data_hora">Data e Hora envio:</label>
+                    <input type="datetime-local" id="data_hora" name="data_hora">
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit">Enviar</button></td>
+                <td><button type="reset">Limpar</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
