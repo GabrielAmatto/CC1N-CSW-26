@@ -1,0 +1,20 @@
+div.link a {
+    color: inherit; 
+    text-decoration: none;
+}
+div.link:hover{
+    color: orange;
+    ::before{
+    content: "*";
+    font-weight: bold;
+    }
+    ::after{
+    content: "*  \266C";
+    font-weight: bold;
+    }
+
+  
+}
+div.link:active{
+    color: yellowgreen;
+}
