@@ -1,0 +1,80 @@
+div.bla {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.box1 {
+    flex-grow: 1;
+    color: red;
+    background-color: yellow;
+}
+
+div.box2 {
+    flex-grow: 1;
+    color: blue;
+    background-color: lightblue;
+}
+
+div.box3 {
+    flex-grow: 1;
+    color: green;
+    background-color: lightgreen;
+}
+    .box1:hover {
+        text-decoration: underline;
+        flex-grow: 3;
+        color: black;
+    }
+
+    .box2:hover {
+        text-decoration: underline;
+        flex-grow: 3;
+        color: orange;
+    }
+
+    .box3:hover {
+        text-decoration: underline;
+        flex-grow: 3;
+        color: purple;
+    }
+
+    .blu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .box6 {
+        color: rgb(132, 0, 255);
+        flex-grow: 3;
+        background-color: rgb(114, 189, 114);
+    }
+
+    .box6:active {
+        color: rgb(255, 0, 0);
+    }
+
+    .box4 {
+        flex-grow: 1;
+        color: red;
+        background-color: rgb(255, 0, 85);
+    }
+
+    .box5 {
+        flex-grow: 1;
+        color: red;
+        background-color: rgb(119, 119, 39);
+    }
+
+    .box7 {
+        flex-grow: 1;
+        color: red;
+        background-color: rgb(104, 104, 82);
+    }
+
+    .box8 {
+        flex-grow: 1;
+        color: red;
+        background-color: rgb(168, 168, 142);
+    }
