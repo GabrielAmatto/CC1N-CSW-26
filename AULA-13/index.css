@@ -75,6 +75,6 @@ div.box3 {
 
     .box8 {
         flex-grow: 1;
-        color: red;
-        background-color: rgb(168, 168, 142);
+        color: blue;
+        background-color: black;
     }
